@@ -1,0 +1,15 @@
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\CardLoaderMod.deps.json
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\CardLoaderMod.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\CardLoaderMod.pdb
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\API.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\Assembly-CSharp.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\Sirenix.Serialization.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.csproj.AssemblyReference.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\PluginInfo.cs
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.AssemblyInfoInputs.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.AssemblyInfo.cs
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.csproj.CoreCompileInputs.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.csproj.CopyComplete
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\CardLoaderMod.pdb

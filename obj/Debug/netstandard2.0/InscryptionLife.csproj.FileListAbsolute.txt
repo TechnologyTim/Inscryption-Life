@@ -1,0 +1,30 @@
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.csproj.AssemblyReference.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\PluginInfo.cs
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.AssemblyInfoInputs.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.AssemblyInfo.cs
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.csproj.CoreCompileInputs.cache
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\InscryptionLife.deps.json
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\InscryptionLife.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\InscryptionLife.pdb
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\API.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\Assembly-CSharp.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\bin\Debug\netstandard2.0\Sirenix.Serialization.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.csproj.CopyComplete
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.dll
+C:\Users\timwa\Desktop\InscryptionExampleMod\obj\Debug\netstandard2.0\InscryptionLife.pdb
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\InscryptionLife.deps.json
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\InscryptionLife.dll
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\InscryptionLife.pdb
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\API.dll
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\Assembly-CSharp.dll
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\bin\Debug\netstandard2.0\Sirenix.Serialization.dll
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.csproj.AssemblyReference.cache
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\PluginInfo.cs
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.AssemblyInfoInputs.cache
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.AssemblyInfo.cs
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.csproj.CoreCompileInputs.cache
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.csproj.CopyComplete
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.dll
+C:\Users\timwa\Documents\Inscryption mods\Inscryption-Life\obj\Debug\netstandard2.0\InscryptionLife.pdb

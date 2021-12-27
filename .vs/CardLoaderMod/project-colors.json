@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c3788a5a-d601-4505-bf2b-373b7849e2c5": {
+      "ProjectGuid": "c3788a5a-d601-4505-bf2b-373b7849e2c5",
+      "DisplayName": "CardLoaderMod",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
