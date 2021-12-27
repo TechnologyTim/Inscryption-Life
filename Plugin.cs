@@ -136,7 +136,7 @@ namespace InscryptionLife
             abilities.Add(HeadcrabInfest.ability);
             abilities.Add(Ability.Brittle);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/headcrab.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 
