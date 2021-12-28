@@ -334,7 +334,7 @@ namespace InscryptionLife
                 metaCategories,
                 CardComplexity.Intermediate,
                 CardTemple.Nature,
-                description: "Gordon's trusty weapon and popluar Half-Life symbol.",
+                description: "Gordon's trusty weapon.",
                 bloodCost: 1,
                 abilities: abilities,
                 defaultTex: tex
@@ -454,7 +454,7 @@ namespace InscryptionLife
                 metaCategories,
                 CardComplexity.Intermediate,
                 CardTemple.Nature,
-                description: "Part of the Xen wildlife, the Anltion is not very strong, but is still theatening when used in groups.",
+                description: "Part of the Xen wildlife, the Anltion is not very strong, but is still theatening when appearing in groups.",
                 bloodCost: 1,
                 energyCost: 3,
                 specialStatIcon: SpecialStatIcon.Ants,
