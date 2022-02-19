@@ -23,7 +23,7 @@ namespace InscryptionLife
             info.rulebookDescription = "This card will turn into a Headcrab Zombie on death.";
             info.metaCategories = new List<AbilityMetaCategory> { AbilityMetaCategory.Part1Rulebook, AbilityMetaCategory.Part1Modular };
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/headcrabbed.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/ability_headcrabbed.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 

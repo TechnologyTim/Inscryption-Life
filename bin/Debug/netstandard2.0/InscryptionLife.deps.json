@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "InscryptionLife/0.0.1": {
         "dependencies": {
-          "BepInEx.Analyzers": "1.0.7",
+          "BepInEx.Analyzers": "1.0.8",
           "BepInEx.Core": "5.4.17",
           "BepInEx.PluginInfoProps": "1.1.0",
           "NETStandard.Library": "2.0.3",
@@ -22,7 +22,7 @@
           "InscryptionLife.dll": {}
         }
       },
-      "BepInEx.Analyzers/1.0.7": {},
+      "BepInEx.Analyzers/1.0.8": {},
       "BepInEx.BaseLib/5.4.17": {
         "runtime": {
           "lib/netstandard2.0/BepInEx.dll": {
@@ -420,12 +420,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BepInEx.Analyzers/1.0.7": {
+    "BepInEx.Analyzers/1.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/RZ1GzpvD9Va5/pW+2Kce5rcaIX5mXiTvzwMqjgPGxsVzNGxt6wulw3zCS6jZYJWA1j4D5YQQ2jVbcz/Dkpjdg==",
-      "path": "bepinex.analyzers/1.0.7",
-      "hashPath": "bepinex.analyzers.1.0.7.nupkg.sha512"
+      "sha512": "sha512-xrfNmunsPhBx+vStTxLonq/aHkRrDH77c9tG/x3m5eejrKe5B0nf7cJPRRt6x330sGI0bLaPTtygdeHUgvI3wQ==",
+      "path": "bepinex.analyzers/1.0.8",
+      "hashPath": "bepinex.analyzers.1.0.8.nupkg.sha512"
     },
     "BepInEx.BaseLib/5.4.17": {
       "type": "package",

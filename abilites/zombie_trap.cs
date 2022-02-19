@@ -23,7 +23,7 @@ namespace InscryptionLife
             info.rulebookDescription = "A card bearing this sigil will kill the opposing card when struck, leaving a Zombie corpse behind.";
             info.metaCategories = new List<AbilityMetaCategory> { AbilityMetaCategory.Part1Rulebook, AbilityMetaCategory.Part1Modular };
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/headcrabbed.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/ability_zombietrap.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 

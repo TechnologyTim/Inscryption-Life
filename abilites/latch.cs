@@ -23,7 +23,7 @@ namespace InscryptionLife
             info.rulebookDescription = "Card bearing this sigil will infest other cards and turn them into Headcrab Zombies.";
             info.metaCategories = new List<AbilityMetaCategory> { AbilityMetaCategory.Part1Rulebook, AbilityMetaCategory.Part1Modular };
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/headcrabbed.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/ability_latch.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 

@@ -46,7 +46,7 @@ namespace InscryptionLife
             createZombieCorpse();
             createZombieTrap();
             createStrider();
-            createMale07();
+            // createMale07();
         }
 
         private void createCombine()
@@ -168,7 +168,7 @@ namespace InscryptionLife
             abilities.Add(Ability.BoneDigger);
             abilities.Add(Ability.GainBattery);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/headcrab_zombie.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 
@@ -200,7 +200,7 @@ namespace InscryptionLife
             abilities.Add(GrigoriTrapSpawner.ability);
 
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/father_grigori.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 
@@ -290,7 +290,7 @@ namespace InscryptionLife
             abilities.Add(Ability.Sniper);
             abilities.Add(Ability.Brittle);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/glock_9mm.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 
@@ -320,7 +320,7 @@ namespace InscryptionLife
             List<Ability> abilities = new List<Ability>();
             abilities.Add(Ability.Brittle);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/crowbar.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
 
@@ -342,35 +342,6 @@ namespace InscryptionLife
 
         }
 
-        private void createMale07()
-        {
-            List<CardMetaCategory> metaCategories = new List<CardMetaCategory>();
-
-            List<Ability> abilities = new List<Ability>();
-            // abilities.Add(Ability.BoneDigger);
-            // abilities.Add(Ability.GainBattery);
-
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
-            Texture2D tex = new Texture2D(2, 2);
-            tex.LoadImage(imgBytes);
-
-            NewCard.Add
-            (
-                "male07",
-                "Male07 rebel",
-                1, // attack
-                1, // health
-                metaCategories,
-                CardComplexity.Intermediate,
-                CardTemple.Nature,
-                description: "The default option.",
-                energyCost: 1,
-                abilities: abilities,
-                defaultTex: tex
-            );
-
-        }
-
         private void createStrider()
         {
             List<CardMetaCategory> metaCategories = new List<CardMetaCategory>();
@@ -384,16 +355,9 @@ namespace InscryptionLife
             abilities.Add(Ability.Sniper);
             abilities.Add(Ability.DeathShield);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/strider.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
-
-            byte[] imgBytes1 = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldierdecal.png"));
-            Texture2D tex1 = new Texture2D(2, 2);
-            tex1.LoadImage(imgBytes1);
-
-            List<Texture> decals = new();
-            decals.Add(tex1);
 
             NewCard.Add
             (
@@ -410,8 +374,7 @@ namespace InscryptionLife
                 bonesCost: 4,
                 abilities: abilities,
                 appearanceBehaviour: appearanceBehaviour,
-                defaultTex: tex,
-                decals: decals
+                defaultTex: tex
             );
 
         }
@@ -434,16 +397,9 @@ namespace InscryptionLife
             List<SpecialTriggeredAbility> specialAbilities = new List<SpecialTriggeredAbility>();
             specialAbilities.Add(SpecialTriggeredAbility.Ant);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/antlion.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
-
-            byte[] imgBytes1 = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldierdecal.png"));
-            Texture2D tex1 = new Texture2D(2, 2);
-            tex1.LoadImage(imgBytes1);
-
-            List<Texture> decals = new();
-            decals.Add(tex1);
 
             NewCard.Add
             (
@@ -462,8 +418,7 @@ namespace InscryptionLife
                 specialAbilities: specialAbilities,
                 appearanceBehaviour: appearanceBehaviour,
                 abilities: abilities,
-                defaultTex: tex,
-                decals: decals
+                defaultTex: tex
             );
 
         }
@@ -479,16 +434,9 @@ namespace InscryptionLife
             abilities.Add(Ability.Transformer);
             abilities.Add(Ability.Deathtouch);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/bullchicken.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
-
-            byte[] imgBytes1 = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldierdecal.png"));
-            Texture2D tex1 = new Texture2D(2, 2);
-            tex1.LoadImage(imgBytes1);
-
-            List<Texture> decals = new();
-            decals.Add(tex1);
 
             NewCard.Add
             (
@@ -504,7 +452,6 @@ namespace InscryptionLife
                 bonesCost: 3,
                 abilities: abilities,
                 defaultTex: tex,
-                decals: decals,
                 evolveId: new EvolveIdentifier("bullchicken2", 1)
             );
 
@@ -517,16 +464,9 @@ namespace InscryptionLife
             List<Ability> abilities = new List<Ability>();
             abilities.Add(Ability.Transformer);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/bullchicken.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
-
-            byte[] imgBytes1 = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldierdecal.png"));
-            Texture2D tex1 = new Texture2D(2, 2);
-            tex1.LoadImage(imgBytes1);
-
-            List<Texture> decals = new();
-            decals.Add(tex1);
 
             NewCard.Add
             (
@@ -542,7 +482,6 @@ namespace InscryptionLife
                 bonesCost: 3,
                 abilities: abilities,
                 defaultTex: tex,
-                decals: decals,
                 evolveId: new EvolveIdentifier("bullchicken", 1)
             );
 
@@ -557,16 +496,9 @@ namespace InscryptionLife
             List<Ability> abilities = new List<Ability>();
             abilities.Add(Ability.BuffNeighbours);
 
-            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldier.png"));
+            byte[] imgBytes = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/breen.png"));
             Texture2D tex = new Texture2D(2, 2);
             tex.LoadImage(imgBytes);
-
-            byte[] imgBytes1 = System.IO.File.ReadAllBytes(Path.Combine(this.Info.Location.Replace("InscryptionLife.dll", ""), "Artwork/soldierdecal.png"));
-            Texture2D tex1 = new Texture2D(2, 2);
-            tex1.LoadImage(imgBytes1);
-
-            List<Texture> decals = new();
-            decals.Add(tex1);
 
             NewCard.Add
             (
@@ -580,8 +512,7 @@ namespace InscryptionLife
                 description: "Once the Black Mesa administrator, now Dr. Breen is the face of the feared Combine on the Earth.",
                 bloodCost: 4,
                 abilities: abilities,
-                defaultTex: tex,
-                decals: decals
+                defaultTex: tex
             );
 
         }
